@@ -1,6 +1,6 @@
 # Ghuguti
+Library to convert elixir structs to Riak CRDT types.
 
-**TODO: Add description**
 
 ## Installation
 
