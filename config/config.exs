@@ -8,6 +8,9 @@ use Mix.Config
 # if you want to provide default values for your application for
 # 3rd-party users, it should be done in your "mix.exs" file.
 
+config :bhaduli,
+  bucket_type: "test-users",
+  bucket_name: "test-users"
 # You can configure for your application as:
 #
 #     config :ghuguti, key: :value
