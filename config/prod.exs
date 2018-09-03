@@ -6,16 +6,16 @@ config :bhaduli,
   bucket_type: "test-users",
   bucket_name: "test-users"
 
-config :pooler,
-  pools: [
-    [
-      name: :riaklocal1,
-      group: :riak,
-      max_count: 20,
-      init_count: 10,
-      start_mfa: {Riak.Connection, :start_link, ['127.0.0.1', 8087]}
-    ]
-  ]
+# config :pooler,
+#   pools: [
+#     [
+#       name: :riaklocal1,
+#       group: :riak,
+#       max_count: 20,
+#       init_count: 10,
+#       start_mfa: {Riak.Connection, :start_link, ['127.0.0.1', 8087]}
+#     ]
+#   ]
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
 # file won't be loaded nor affect the parent project. For this reason,
